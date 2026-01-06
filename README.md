@@ -14,3 +14,20 @@ This system uses semantic search (FAISS) over healthcare PDFs and generates resp
 📚 Transparent Source References
 🧾 Medical Disclaimer Enforcement
 🧰 Modular, scalable, and production-ready design
+
+
+
+### WORKFLOW ###
+User Question
+   ↓
+Semantic Search (FAISS)
+   ↓
+Relevant Medical Context
+   ↓
+Prompt + Context
+   ↓
+LLaMA 3.1 (Groq)
+   ↓
+Structured Medical Answer
+
+
